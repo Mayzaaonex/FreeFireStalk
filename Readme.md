@@ -133,6 +133,22 @@ Here's an example of the `result_url` image returned by the API:
 
 ---
 
+## 🐛 Bug Reports & Feature Requests
+
+Found a bug? Got an idea for another scraper?
+
+Join our Discord community and let us know directly:
+
+👉 **[https://discord.gg/qYZ6Snp3n5](https://discord.gg/qYZ6Snp3n5)**
+
+We're always open to:
+- 🐛 Bug reports
+- 💡 Feature suggestions
+- 🔧 New scraper requests
+- 🤝 Collaboration
+
+---
+
 ## 📜 License
 
 **© Mayzaa** — All rights reserved.
