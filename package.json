@@ -1,0 +1,15 @@
+{
+  "name": "freefirestalk",
+  "version": "1.0.0",
+  "description": "Free Fire Stalker by UID using Mayzaa API",
+  "main": "ffstalk.js",
+  "scripts": {
+    "start": "node ffstalk.js"
+  },
+  "keywords": ["freefire", "stalk", "api", "mayzaa", "ff"],
+  "author": "Mayzaa",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0"
+  }
+}
