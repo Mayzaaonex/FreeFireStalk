@@ -13,6 +13,7 @@ Before running this script, make sure you have the following installed:
 | Node.js    | >= 14.x   | JavaScript runtime                   |
 | npm        | >= 6.x    | Node package manager                 |
 | axios      | latest    | Promise-based HTTP client            |
+| git        | latest    | Version control (for cloning)        |
 
 Install the required dependency:
 
@@ -22,13 +23,32 @@ npm install axios
 
 ---
 
-## 🚀 Usage
+## 🚀 Installation & Usage
 
-### 1. Clone / Download the script
+### 1. Clone the Repository
 
-Save the file as `ffstalk.js` in your project folder.
+```bash
+git clone https://github.com/Mayzaaonex/FreeFireStalk.git
+```
 
-### 2. Run via CLI
+### 2. Enter the Project Directory
+
+```bash
+cd FreeFireStalk
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+> If there's no `package.json`, just install axios manually:
+> ```bash
+> npm install axios
+> ```
+
+### 4. Run the Script via CLI
 
 ```bash
 node ffstalk.js <uid>
@@ -40,7 +60,7 @@ node ffstalk.js <uid>
 node ffstalk.js 10665134962
 ```
 
-### 3. Use as a Module
+### 5. Use as a Module (Optional)
 
 ```javascript
 const { ffStalk } = require('./ffstalk.js');
@@ -49,6 +69,18 @@ const { ffStalk } = require('./ffstalk.js');
   const data = await ffStalk('10665134962');
   console.log(JSON.stringify(data, null, 2));
 })();
+```
+
+---
+
+## 📁 Project Structure
+
+```
+FreeFireStalk/
+├── ffstalk.js       # Main script
+├── package.json     # Project metadata & dependencies
+├── README.md        # Documentation
+└── node_modules/    # Installed dependencies
 ```
 
 ---
